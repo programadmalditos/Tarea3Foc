@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foc.crisgil.tarea3foc.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/txPantalla"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            tools:text="" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <Button
+        android:id="@+id/btNueve"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="9"
+         />
+
+    <Button
+        android:id="@+id/btOcho"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="8"
+        />
+
+    <Button
+        android:id="@+id/btSiete"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="7"
+        />
+
+    <Button
+        android:id="@+id/btMas"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="+"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <Button
+        android:id="@+id/btSeis"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="6"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <Button
+        android:id="@+id/btCinco"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="5"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <Button
+        android:id="@+id/btCuatro"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="4"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <Button
+        android:id="@+id/btMenos"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="-"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="166dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <Button
+        android:id="@+id/btTres"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="3"
+         />
+
+    <Button
+        android:id="@+id/btDos"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="2"
+         />
+
+    <Button
+        android:id="@+id/btUno"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="1"
+        />
+
+    <Button
+        android:id="@+id/btDividir"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="/"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:id="@+id/btC"
+            android:layout_width="60dp"
+            android:layout_height="59dp"
+            android:text="C"
+            android:textColor="@android:color/holo_red_light" />
+
+    <Button
+        android:id="@+id/btCero"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="0"
+         />
+
+    <Button
+        android:id="@+id/btIgual"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="="
+        />
+
+    <Button
+        android:id="@+id/btPor"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:text="*"
+        />
+    </LinearLayout>
+
+</LinearLayout>
